@@ -1,0 +1,26 @@
+# Virtual environment
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Logs & Database
+logs/
+*.log
+*.sqlite3
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.iml
+
+# Python package files
+*.egg-info/
+dist/
+build/
