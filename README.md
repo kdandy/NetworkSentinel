@@ -1,40 +1,44 @@
-# 🚀 NetworkSentinel - AI-Powered Network Sniffing & Exploitation
+# NetworkSentinel - AI-Powered Network Sniffing & Exploitation
 
 ![Network Sentinel](https://img.shields.io/badge/Status-Active-brightgreen) ![Python](https://img.shields.io/badge/Python-3.x-blue) ![License](https://img.shields.io/badge/License-MIT-yellow)
 
-## 🔍 Overview
+## Overview
 NetworkSentinel is an advanced **real-time network packet analyzer and exploitation framework** powered by **AI**.  
 It enables **live traffic monitoring**, **AI-based data classification**, and **automated attacks** such as ARP Spoofing and MITM.
 
-## ✨ Features
-- 📡 **Live Packet Sniffing** – Captures network packets in real-time.
-- 🧠 **AI-Powered Analysis** – Uses machine learning to classify sensitive network traffic.
-- 🔗 **CNAME & WHOIS Checks** – Identifies misconfigured domains and expired services.
-- 🛡 **Cloudflare Protection Detection** – Checks if a subdomain is protected by Cloudflare.
-- ⚡ **Network Exploitation** – Includes **ARP Spoofing & MITM attacks** for security testing.
+## Features
+- **Live Packet Sniffing** – Captures network packets in real-time.
+- **AI-Powered Analysis** – Uses machine learning to classify sensitive network traffic.
+- **CNAME & WHOIS Checks** – Identifies misconfigured domains and expired services.
+- **Cloudflare Protection Detection** – Checks if a subdomain is protected by Cloudflare.
+- **Network Exploitation** – Includes **ARP Spoofing & MITM attacks** for security testing.
 
-## 🛠 Installation
+## Installation
 ### **Prerequisites**
-- 🐍 **Python 3.x**
-- 📦 **Pip & Virtual Environment**
-- 💻 **Admin Privileges (for network sniffing & attacks)**
+- **Python 3.x**
+- **Pip & Virtual Environment**
+- **Admin Privileges (for network sniffing & attacks)**
 
 ### **Setup**
 Clone the repository and set up the virtual environment:
 ```sh
 git clone https://github.com/kdandy/NetworkSentinel.git
 cd NetworkSentinel
+```
 
-# Create and activate virtual environment
+### Create and activate virtual environment
+```sh
 python3 -m venv .venv
 source .venv/bin/activate  # On macOS/Linux
 .venv\Scripts\activate     # On Windows
+```
 
-# Install dependencies
+### Install dependencies
+```sh
 pip install -r requirements.txt
 ```
 
-## 🚀 Usage
+## Usage
 Run the tool with **root privileges** for network sniffing:
 ```sh
 sudo python3 NetworkSentinel.py
